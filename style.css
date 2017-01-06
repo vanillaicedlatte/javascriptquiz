@@ -1,0 +1,78 @@
+body {
+  color: #777;
+  background-image: url('mariea.jpg');
+  font-family: sans-serif;
+}
+
+body a {
+  color: #777;
+}
+
+body a:hover {
+  color: #0F5066;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #0F5066;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 600px;
+  height: 450px;
+  margin: 50px auto 0 auto;
+  background-color: #F6DBD4;
+  padding: 10px 50px 50px 50px;
+
+}
+
+.grid h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #0F5066;
+
+}
+
+.grid #question {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #5a6772
+
+}
+
+.buttons {
+  margin-top: 30px;
+
+}
+
+#btn0, #btn1, #btn2, #btn3, #btn4, #btn5, #btn6 {
+  background-color: #F4BEBA;
+  width: 250px;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover {
+  cursor: pointer;
+  background-color: #0F5066;
+
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus, #btn4:focus, #btn5:focus, #btn6:focus {
+  outline: 0;
+
+}
+
+#progress {
+  color: #777;
+  font-size: 18px;
+}
